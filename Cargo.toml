@@ -12,5 +12,5 @@ keywords = ["geo", "polygon", "boolean", "offset"]
 categories = ["algorithms"]
 
 [dependencies]
-clipper-sys = "0.4.0"
+clipper-sys = {git = "https://github.com/QuentinPerez/clipper-sys.git", branch = "qperez/fix_macos_build"}
 geo-types = "0.7.1"
